@@ -1,0 +1,152 @@
+body {
+	text-align: center;
+}
+
+.menu {
+	list-style: none;
+	position: absolute;
+	z-index: 10;
+	cursor: pointer;
+	right: 30px;
+}
+
+.links {
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: fantasy;
+	color: white;
+}
+
+.links:hover {
+	background-color: darkgrey;
+}
+
+#hobby {
+	position: absolute;
+	overflow: hidden;
+	background: linear-gradient(#f2e6f2 0%, #910a8c 100%);
+	max-height: 500px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 9;
+	display: table;
+
+}
+
+#description {
+	padding-top: 500px;
+	text-align: center;
+	vertical-align: middle;
+	color: aqua;
+	font-family: 'Syne Mono', monospace;
+	text-align: justify;
+}
+
+.div1 {
+	display: table-cell;
+	position: relative;
+	vertical-align: middle;
+}
+
+.container p {
+	margin: auto;
+	padding-top: 30px;
+	max-width: 450px;
+	vertical-align: middle;
+	line-height: 1.2;
+	color: blueviolet;
+	text-align: justify;
+	font-family: 'Syne Mono', monospace;
+}
+
+#hobbyImg {
+	border: 10px;
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+}
+
+.container h1 {
+	font-family: fantasy;
+    font-size: 40px;
+	color: whitesmoke;
+}
+
+.container h2{
+	font-family: fantasy;
+	font-size: 30px;
+	color:whitesmoke;
+}
+.container h4{
+	font-family: fantasy;
+	font-size: 40px;
+	color:blueviolet;
+}
+
+.container h3 {
+	font-family: fantasy;
+    font-size: 30px;
+	color:blueviolet;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+#ray{
+	width:400px;
+	height:400px;
+	border:10px solid #AAAAAA;
+}
+
+#nolan{
+	width:400px;
+	height:400px;
+	border:10px solid #AAAAAA;
+}
+
+img{
+	transition: transform .2s;
+}
+
+img:hover{
+	transform: scale(0.9);
+}
+
+#footerSection iframe{
+	width: 100%;
+}
+
+.contact h5{
+	display: inline;
+}
+
+#mustWatch img{
+	width:200px;
+	height:200px;
+	margin-top: 30px;
+}
+
+#myCarousel{
+	background-color: bisque;
+}
+
+#myCarousel img{
+	margin-top: 25px;
+	height:350px;
+	width:350px;
+}
+
+.carousel-inner p{
+	text-align: center;
+	margin-bottom: 15px;
+	font-family: fantasy;
+}
+
+
